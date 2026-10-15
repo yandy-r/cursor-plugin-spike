@@ -1,0 +1,5 @@
+{
+  "hooks": {
+    "sessionStart": [{ "command": "./scripts/record.sh" }]
+  }
+}

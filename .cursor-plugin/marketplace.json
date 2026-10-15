@@ -1,0 +1,19 @@
+{
+  "name": "ycc-cursor-spike",
+  "owner": { "name": "yandy-r" },
+  "metadata": {
+    "description": "Temporary YAN-1124 spike marketplace. Not a product. Safe to delete."
+  },
+  "plugins": [
+    {
+      "name": "spike-relative",
+      "source": "spike-relative",
+      "description": "Relative directory source on the indexed ref"
+    },
+    {
+      "name": "spike-claude-events",
+      "source": "spike-claude-events",
+      "description": "Claude-named hook events WorktreeCreate and SessionStart"
+    }
+  ]
+}

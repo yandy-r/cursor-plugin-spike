@@ -1,0 +1,6 @@
+{
+  "hooks": {
+    "WorktreeCreate": [{ "command": "./scripts/record.sh" }],
+    "SessionStart": [{ "command": "./scripts/record.sh" }]
+  }
+}

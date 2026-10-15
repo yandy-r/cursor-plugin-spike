@@ -1,0 +1,6 @@
+---
+description: YAN-1124 fixture rule. Do not act on it.
+alwaysApply: false
+---
+
+MARKER=MARKER_PIN_V1
