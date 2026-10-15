@@ -1,6 +1,8 @@
 {
   "name": "ycc-cursor-spike",
-  "owner": { "name": "yandy-r" },
+  "owner": {
+    "name": "yandy-r"
+  },
   "metadata": {
     "description": "Temporary YAN-1124 spike marketplace. Not a product. Safe to delete."
   },
@@ -14,50 +16,6 @@
       "name": "spike-relative-dot",
       "source": "./spike-relative",
       "description": "Dot-slash relative source"
-    },
-    {
-      "name": "spike-pin-sha",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/yandy-r/cursor-plugin-spike.git",
-        "path": "spike-pinned",
-        "sha": "2d0f5f2722bec9ee0d70ca87cbc4e5c6ea7cfd10"
-      },
-      "description": "git-subdir pinned to pin-v1 SHA"
-    },
-    {
-      "name": "spike-pin-tag",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/yandy-r/cursor-plugin-spike.git",
-        "path": "spike-pinned",
-        "ref": "pin-v1"
-      },
-      "description": "git-subdir pinned to pin-v1 tag"
-    },
-    {
-      "name": "spike-pin-github-ref",
-      "source": {
-        "source": "github",
-        "repo": "yandy-r/cursor-plugin-spike",
-        "ref": "pin-v1"
-      },
-      "description": "github source pinned to pin-v1"
-    },
-    {
-      "name": "spike-bad-sha",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/yandy-r/cursor-plugin-spike.git",
-        "path": "spike-pinned",
-        "sha": "not-a-sha"
-      },
-      "description": "Invalid sha must be skipped"
-    },
-    {
-      "name": "spike-claude-events",
-      "source": "spike-claude-events",
-      "description": "Claude-named hook events WorktreeCreate and SessionStart"
     }
   ]
 }
