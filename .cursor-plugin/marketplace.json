@@ -1,6 +1,8 @@
 {
   "name": "ycc-cursor-spike",
-  "owner": { "name": "yandy-r" },
+  "owner": {
+    "name": "yandy-r"
+  },
   "metadata": {
     "description": "Temporary YAN-1124 spike marketplace. Not a product. Safe to delete."
   },
@@ -43,16 +45,6 @@
         "ref": "pin-v1"
       },
       "description": "github source pinned to pin-v1"
-    },
-    {
-      "name": "spike-bad-sha",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/yandy-r/cursor-plugin-spike.git",
-        "path": "spike-pinned",
-        "sha": "not-a-sha"
-      },
-      "description": "Invalid sha must be skipped"
     },
     {
       "name": "spike-claude-events",
