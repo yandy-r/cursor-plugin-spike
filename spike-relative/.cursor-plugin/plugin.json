@@ -1,7 +1,12 @@
 {
   "name": "spike-relative",
   "version": "0.0.1",
-  "description": "YAN-1124 spike fixture. Inert unless SPIKE_LAB is set.",
-  "author": { "name": "yandy-r" },
-  "keywords": ["spike", "yan-1124"]
+  "description": "MAIN_RELATIVE_DESC",
+  "author": {
+    "name": "yandy-r"
+  },
+  "keywords": [
+    "spike",
+    "yan-1124"
+  ]
 }
